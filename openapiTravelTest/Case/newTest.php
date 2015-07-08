@@ -9,7 +9,7 @@ Class newTest extends TestCase{
 	}
 
 	public function testNew() {
-		//µ÷ÓÃ¿ØÖÆÆ÷
+
 		$request = new Yaf_Request_Simple("CLI", "V1", "Test", 'index2');
 		$response = $this->_application->getDispatcher()
 		->returnResponse(true)
